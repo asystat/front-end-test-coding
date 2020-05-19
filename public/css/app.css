@@ -1,0 +1,46 @@
+#app{
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+@media screen and (min-width: 768px){
+    #app{
+        margin-top: 5rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .search-ip-button{
+        margin-top: 1rem;
+    }
+}
+h1 {
+    font-size: 1.5rem;
+}
+h3 {
+    margin: 40px 0 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+a {
+    color: #42b983;
+}
+.map{
+    margin-top: 2rem;
+    height: 50vh !important;
+}
+.ip-list{
+    margin-top: 2rem;
+}
+.ip-list li{
+    margin: 0;
+}
